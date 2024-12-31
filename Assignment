@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyHelp - Assignment Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>StudyHelp - Assignment Services</h1>
+        <p>Your one-stop solution for all assignments</p>
+    </header>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="#order">Order Now</a>
+    </nav>
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We provide assignment help for:</p>
+        <ul>
+            <li>Math</li>
+            <li>Science</li>
+            <li>English</li>
+            <li>History</li>
+            <li>Custom assignments</li>
+        </ul>
+        <a href="#order" class="btn">Order Now</a>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: studyhelp@example.com</p>
+        <p>Phone: +123456789</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 StudyHelp. All rights reserved.</p>
+    </footer>
+</body>
+</html>
